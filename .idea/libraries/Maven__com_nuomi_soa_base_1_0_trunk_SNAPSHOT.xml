@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.nuomi:soa-base:1.0-trunk-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/d:/.m2/repository/com/nuomi/soa-base/1.0-trunk-SNAPSHOT/soa-base-1.0-trunk-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/d:/.m2/repository/com/nuomi/soa-base/1.0-trunk-SNAPSHOT/soa-base-1.0-trunk-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/d:/.m2/repository/com/nuomi/soa-base/1.0-trunk-SNAPSHOT/soa-base-1.0-trunk-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

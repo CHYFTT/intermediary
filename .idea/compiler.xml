@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="intermediary-app" />
+        <module name="intermediary-service" />
+        <module name="intermediary-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="intermediary" target="1.5" />
+      <module name="intermediary-app" target="1.5" />
+      <module name="intermediary-service" target="1.6" />
+      <module name="intermediary-web" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
