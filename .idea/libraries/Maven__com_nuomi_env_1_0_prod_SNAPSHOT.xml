@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.nuomi:env:1.0-prod-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$APPLICATION_HOME_DIR$/bin/d:/.m2/repository/com/nuomi/env/1.0-prod-SNAPSHOT/env-1.0-prod-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../repository/com/nuomi/env/1.0-prod-SNAPSHOT/env-1.0-prod-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$APPLICATION_HOME_DIR$/bin/d:/.m2/repository/com/nuomi/env/1.0-prod-SNAPSHOT/env-1.0-prod-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../repository/com/nuomi/env/1.0-prod-SNAPSHOT/env-1.0-prod-SNAPSHOT-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$APPLICATION_HOME_DIR$/bin/d:/.m2/repository/com/nuomi/env/1.0-prod-SNAPSHOT/env-1.0-prod-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../repository/com/nuomi/env/1.0-prod-SNAPSHOT/env-1.0-prod-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: velocity-tools:velocity-tools:1.4">
     <CLASSES>
-      <root url="jar://$APPLICATION_HOME_DIR$/bin/d:/.m2/repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$APPLICATION_HOME_DIR$/bin/d:/.m2/repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$APPLICATION_HOME_DIR$/bin/d:/.m2/repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

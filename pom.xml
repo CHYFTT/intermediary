@@ -16,7 +16,7 @@
 
 
     <properties>
-        <bjf.version>2.1.5.0</bjf.version>
+        <bjf.version>2.1.0.1</bjf.version>
         <bjf-test.version>2.1.4.0</bjf-test.version>
         <bjf-web-springmvc.version>2.1.4.0</bjf-web-springmvc.version>
         <spring-framework.version>3.2.13.RELEASE</spring-framework.version>

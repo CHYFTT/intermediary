@@ -397,7 +397,7 @@
         </dependency>
 
         <dependency>
-            <artifactId>intermediary</artifactId>
+            <artifactId>intermediary-service</artifactId>
             <groupId>com.henrrycheng.chyftt</groupId>
             <version>1.0.0.1-SNAPSHOT</version>
         </dependency>
