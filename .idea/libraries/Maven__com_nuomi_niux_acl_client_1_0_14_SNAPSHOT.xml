@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.nuomi:niux-acl-client:1.0.14-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$APPLICATION_HOME_DIR$/bin/d:/.m2/repository/com/nuomi/niux-acl-client/1.0.14-SNAPSHOT/niux-acl-client-1.0.14-20151214.065304-26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../repository/com/nuomi/niux-acl-client/1.0.14-SNAPSHOT/niux-acl-client-1.0.14-20151214.065304-26.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$APPLICATION_HOME_DIR$/bin/d:/.m2/repository/com/nuomi/niux-acl-client/1.0.14-SNAPSHOT/niux-acl-client-1.0.14-20151214.065304-26-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../repository/com/nuomi/niux-acl-client/1.0.14-SNAPSHOT/niux-acl-client-1.0.14-20151214.065304-26-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$APPLICATION_HOME_DIR$/bin/d:/.m2/repository/com/nuomi/niux-acl-client/1.0.14-SNAPSHOT/niux-acl-client-1.0.14-20151214.065304-26-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../repository/com/nuomi/niux-acl-client/1.0.14-SNAPSHOT/niux-acl-client-1.0.14-20151214.065304-26-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

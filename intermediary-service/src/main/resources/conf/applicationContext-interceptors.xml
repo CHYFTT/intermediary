@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+    <bean class="com.baidu.bjf.aop.MultiBeanNameAutoProxyCreator">
+        <property name="beanNamesMapping">
+            <map>
+                <!-- <entry key="*Facade,*Service,*Dao,*Client" value="stackTraceProfile"/> -->
+                <entry key="*Service" value="transactionInterceptor"/>
+            </map>
+        </property>
+    </bean>
+
+</beans>
