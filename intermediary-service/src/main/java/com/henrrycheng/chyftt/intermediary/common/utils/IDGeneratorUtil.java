@@ -1,6 +1,5 @@
 package com.henrrycheng.chyftt.intermediary.common.utils;
 
-import com.baidu.rigel.ipangu.common.IDGenerator;
 import org.apache.log4j.Logger;
 
 import java.util.Random;
@@ -14,7 +13,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class IDGeneratorUtil {
 
-    private static Logger logger = Logger.getLogger(IDGenerator.class);
+    private static Logger logger = Logger.getLogger(IDGeneratorUtil.class);
     private static AtomicInteger currIndex = new AtomicInteger(0);
     private static String instanceID = "";
     private static int intInstanceID = 0;

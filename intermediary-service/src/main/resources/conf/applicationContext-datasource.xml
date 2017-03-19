@@ -97,26 +97,4 @@
 	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 		<property name="dataSource" ref="dataSource"></property>
 	</bean>
-
-	<!-- transaction aop intercepter see applicationContext-interceptors.xml  -->
-
-	<bean id="uniqueBdrpClient" class="com.baidu.driver4j.bdrp.client.BdrpClientFactory">
-		<property name="nodeManager">
-			<bean class="com.baidu.driver4j.bdrp.node.NodeManager">
-				<property name="nodes" value="${redis.address}" />
-				<property name="nodeSelector">
-					<bean
-						class="com.baidu.driver4j.bdrp.node.selector.RoundRobbinNodeSelector"></bean>
-				</property>
-				<property name="healthCriteria">
-					<bean class="com.baidu.driver4j.bdrp.node.health.HealthCriteria">
-						<property name="period" value="60"></property>
-						<property name="disableThreshold" value="5"></property>
-						<property name="checkingFailThreshold" value="3"></property>
-					</bean>
-				</property>
-			</bean>
-		</property>
-	</bean>
-
 </beans>

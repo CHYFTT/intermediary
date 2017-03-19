@@ -102,58 +102,6 @@
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.1.1.GA" />
           <element id="library" level="project" name="Maven: com.fasterxml:classmate:0.8.0" />
           <element id="library" level="project" name="Maven: org.glassfish.web:javax.el:2.2.4" />
-          <element id="file-copy" path="$PROJECT_DIR$/../../../../repository/com/baidu/rigel/ipangu-utility/0.2.12-SNAPSHOT/ipangu-utility-0.2.12-20170121.083146-23.jar" output-file-name="ipangu-utility-0.2.12-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: com.baidu.rigel:crm-rights:1.1.5.7" />
-          <element id="library" level="project" name="Maven: org.apache.struts.xwork:xwork-core:2.2.1" />
-          <element id="library" level="project" name="Maven: ognl:ognl:3.0" />
-          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.1" />
-          <element id="library" level="project" name="Maven: javassist:javassist:3.8.0.GA" />
-          <element id="library" level="project" name="Maven: org.apache.struts:struts2-spring-plugin:2.2.1" />
-          <element id="library" level="project" name="Maven: com.baidu:bjf-tcom-compatible:1.0.0.0" />
-          <element id="library" level="project" name="Maven: com.baidu.rigel.tmp:thrift:0.7.0" />
-          <element id="library" level="project" name="Maven: com.baidu:fishingnet-bjf:1.0.0.0" />
-          <element id="library" level="project" name="Maven: com.baidu:fishingnet-core:1.0.0.0" />
-          <element id="library" level="project" name="Maven: com.baidu:ESB-bjf-extension:1.0.0.1" />
-          <element id="library" level="project" name="Maven: com.baidu:ESB-core:1.0.0.1" />
-          <element id="library" level="project" name="Maven: com.baidu.rigel:tcom-tinyse:1.0.0.4" />
-          <element id="library" level="project" name="Maven: com.baidu:bjf-tcom-adapter:1.0.0.3" />
-          <element id="library" level="project" name="Maven: com.baidu.rigel:tcom-uc:1.0.0.4" />
-          <element id="library" level="project" name="Maven: com.baidu:json-rpc:1.1.1" />
-          <element id="library" level="project" name="Maven: com.baidu.rigel:tcom-fileexport:1.0.0.4" />
-          <element id="library" level="project" name="Maven: com.baidu.rigel.tmp:struts2-core:2.2.1.1" />
-          <element id="library" level="project" name="Maven: com.baidu.rigel:tcom-querybuilder:1.0.0.4" />
-          <element id="library" level="project" name="Maven: org.hibernate:hibernate:3.2.7.ga" />
-          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:1.2.3" />
-          <element id="library" level="project" name="Maven: javax.transaction:jta:1.0.1B" />
-          <element id="library" level="project" name="Maven: asm:asm-attrs:1.5.3" />
-          <element id="library" level="project" name="Maven: antlr:antlr:2.7.6" />
-          <element id="library" level="project" name="Maven: com.baidu.rigel:tcom-platform:1.0.0.4" />
-          <element id="library" level="project" name="Maven: commons-configuration:commons-configuration:1.6" />
-          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils-core:1.8.0" />
-          <element id="library" level="project" name="Maven: org.jasypt:jasypt:1.6" />
-          <element id="library" level="project" name="Maven: com.google:jsonplugin:0.30" />
-          <element id="library" level="project" name="Maven: javax.annotation:jsr250-api:1.0" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-jcl:1.5.11" />
-          <element id="library" level="project" name="Maven: com.baidu.rigel:security-client:1.0.0.0" />
-          <element id="library" level="project" name="Maven: org.hibernate:hibernate-annotations:3.4.0.GA" />
-          <element id="library" level="project" name="Maven: org.hibernate:ejb3-persistence:1.0.2.GA" />
-          <element id="library" level="project" name="Maven: org.hibernate:hibernate-commons-annotations:3.1.0.GA" />
-          <element id="library" level="project" name="Maven: velocity-tools:velocity-tools:1.4" />
-          <element id="library" level="project" name="Maven: net.sourceforge:jsqlparser:0.7.0" />
-          <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.4" />
-          <element id="file-copy" path="$PROJECT_DIR$/../../../../repository/com/nuomi/crm/niux_salers_client/1.1.10.0-SNAPSHOT/niux_salers_client-1.1.10.0-20151217.021108-7.jar" output-file-name="niux_salers_client-1.1.10.0-SNAPSHOT.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/../../../../repository/com/nuomi/niux-acl-client/1.0.14-SNAPSHOT/niux-acl-client-1.0.14-20151214.065304-26.jar" output-file-name="niux-acl-client-1.0.14-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: com.nuomi:soa-base:1.0-trunk-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.4.9" />
-          <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
-          <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
-          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.3.3" />
-          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
-          <element id="library" level="project" name="Maven: com.nuomi:env:1.0-prod-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />
-          <element id="file-copy" path="$PROJECT_DIR$/../../../../repository/yunying/yunying-client/1.0.40-SNAPSHOT/yunying-client-1.0.40-20160115.064512-9.jar" output-file-name="yunying-client-1.0.40-SNAPSHOT.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/../../../../repository/yunying/yunying-util/1.0-SNAPSHOT/yunying-util-1.0-20150109.095150-24.jar" output-file-name="yunying-util-1.0-SNAPSHOT.jar" />
-          <element id="library" level="project" name="Maven: com.baidu:casclient:1.0.3" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.2.9.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.2.9.RELEASE" />
@@ -165,29 +113,7 @@
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.3.2" />
           <element id="library" level="project" name="Maven: com.google.guava:guava:18.0-rc2" />
-          <element id="library" level="project" name="Maven: com.baidu.uic:uic-client:2.0.4" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-core:2.7.5" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-api:2.7.5" />
-          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.2.0" />
-          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.1" />
-          <element id="library" level="project" name="Maven: wsdl4j:wsdl4j:1.6.3" />
-          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.1.13" />
-          <element id="library" level="project" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.0.3" />
-          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-javamail_1.4_spec:1.7.1" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxws:2.7.5" />
-          <element id="library" level="project" name="Maven: xml-resolver:xml-resolver:1.2" />
-          <element id="library" level="project" name="Maven: asm:asm:3.3.1" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-bindings-soap:2.7.5" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-databinding-jaxb:2.7.5" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-bindings-xml:2.7.5" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-simple:2.7.5" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-addr:2.7.5" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-policy:2.7.5" />
-          <element id="library" level="project" name="Maven: org.apache.neethi:neethi:3.0.2" />
-          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-transports-http:2.7.5" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.5.11" />
-          <element id="library" level="project" name="Maven: com.baidu:bdrp-client:1.0.2" />
-          <element id="library" level="project" name="Maven: com.baidu:bns-client:1.2.3" />
           <element id="library" level="project" name="Maven: redis.clients:jedis:2.3.1" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.0" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi-excelant:3.9" />
@@ -201,6 +127,9 @@
           <element id="archive" name="intermediary-service-1.0.0.1-SNAPSHOT.jar">
             <element id="module-output" name="intermediary-service" />
           </element>
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../repository/com/baidu/rigel/ipangu-web2/1.0.0-SNAPSHOT/ipangu-web2-1.0.0-20170315.115924-24.jar" output-file-name="ipangu-web2-1.0.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.1" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.1" />
           <element id="library" level="project" name="Maven: commons-httpclient:commons-httpclient:3.1" />
         </element>
       </element>

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
-@RequestMapping("/experence")
+@RequestMapping("/experience")
 public class ExperienceController extends BaseController {
 
     /**

@@ -12,9 +12,13 @@
     <artifactId>intermediary-app</artifactId>
 
 
-    <dependency>
-        <artifactId>intermediary-service</artifactId>
-        <groupId>com.henrrycheng.chyftt</groupId>
-        <version>1.0.0.1-SNAPSHOT</version>
-    </dependency>
+    <dependencies>
+
+        <dependency>
+            <artifactId>intermediary-service</artifactId>
+            <groupId>com.henrrycheng.chyftt</groupId>
+            <version>1.0.0.1-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
 </project>
