@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.henrrycheng.chyftt.intermediary.fraudMeans.dao.FraudMeansMapper">
+
+    <select id="queryByCondition" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from td_fraud_means
+        where 1 = 1
+        <if test="name != null and name != ''">
+            and name = #{name, jdbcType=VARCHAR}
+        </if>
+        and is_deleted = 0
+        order by frequency desc, add_time desc
+        limit 1
+    </select>
+
 </mapper>

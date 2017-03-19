@@ -8,4 +8,6 @@ package com.henrrycheng.chyftt.intermediary.company.bo;
 public class Company extends CompanyBase {
     /** serial Version UID. */
     private static final long serialVersionUID = -1L;
+
+
 }

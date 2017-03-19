@@ -8,4 +8,13 @@ import com.henrrycheng.chyftt.intermediary.fraudMeans.bo.FraudMeans;
  * @author chengyong
  */
 public interface FraudMeansDao extends SqlMapDao<FraudMeans, Long> {
+
+    /**
+     * 根据条件查询
+     *
+     * @param fraudMeansName
+     *
+     * @return FraudMeans
+     */
+    FraudMeans queryByCondition(String fraudMeansName);
 }

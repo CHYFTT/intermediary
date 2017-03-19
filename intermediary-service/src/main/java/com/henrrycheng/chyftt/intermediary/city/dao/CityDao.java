@@ -8,4 +8,13 @@ import com.henrrycheng.chyftt.intermediary.city.bo.City;
  * @author chengyong
  */
 public interface CityDao extends SqlMapDao<City, Long> {
+
+    /**
+     * 根据条件查询
+     *
+     * @param cityName
+     *
+     * @return City
+     */
+    City queryByCondition(String cityName, Long id);
 }

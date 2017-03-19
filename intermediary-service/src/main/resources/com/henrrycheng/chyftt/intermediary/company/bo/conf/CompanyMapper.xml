@@ -1,4 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.henrrycheng.chyftt.intermediary.company.dao.CompanyMapper">
+
+    <select id="queryByCondition" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from tb_company
+        where 1 = 1
+        <if test="company.id != null and company.id != ''">
+            and id = #{company.id, jdbcType=BIGINT}
+        </if>
+        <if test="company.isNameFuzzy != null and company.isNameFuzzy != '' and company.isNameFuzzy = 0 and company.name != null and company.name != ''">
+            and name = #{company.name, jdbcType=VARCHAR}
+        </if>
+        <if test="company.isNameFuzzy != null and company.isNameFuzzy != '' and company.isNameFuzzy = 1 and company.name != null and company.name != ''">
+            and name LIKE CONCAT('%',#{company.name, jdbcType=VARCHAR},'%')
+        </if>
+        <if test="company.type != null and company.type != ''">
+            and type = #{company.type, jdbcType=INTEGER}
+        </if>
+        <if test="company.blackScoreOverall != null and company.blackScoreOverall != ''">
+            and black_score_overall = #{company.blackScoreOverall, jdbcType=INTEGER}
+        </if>
+        <if test="company.leader != null and company.leader != ''">
+            and leader = #{company.leader, jdbcType=VARCHAR}
+        </if>
+        <if test="company.addUserId != null and company.addUserId != ''">
+            and add_user_id = #{company.addUserId, jdbcType=BIGINT}
+        </if>
+        and is_deleted = 0
+        order by add_time desc
+    </select>
+
 </mapper>

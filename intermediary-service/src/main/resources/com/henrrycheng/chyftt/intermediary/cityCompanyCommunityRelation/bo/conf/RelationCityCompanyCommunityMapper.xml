@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.henrrycheng.chyftt.intermediary.cityCompanyCommunityRelation.dao.RelationCityCompanyCommunityMapper">
+
+
+    <select id="queryByCondition" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from tb_relation_city_company_community
+        where 1 = 1
+        <if test="cityId != null and cityId != ''">
+            and city_id = #{cityId, jdbcType=BIGINT}
+        </if>
+        <if test="companyId != null and companyId != ''">
+            and company_id = #{companyId, jdbcType=BIGINT}
+        </if>
+        <if test="communityId != null and communityId != ''">
+            and community_id = #{communityId, jdbcType=BIGINT}
+        </if>
+        and is_deleted = 0
+        order by add_time desc
+    </select>
+
 </mapper>

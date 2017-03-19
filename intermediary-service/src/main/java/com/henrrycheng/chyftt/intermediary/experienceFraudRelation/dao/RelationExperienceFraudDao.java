@@ -8,4 +8,15 @@ import com.henrrycheng.chyftt.intermediary.experienceFraudRelation.bo.RelationEx
  * @author chengyong
  */
 public interface RelationExperienceFraudDao extends SqlMapDao<RelationExperienceFraud, Long> {
+
+    /**
+     * 根据条件查询
+     *
+     * @param experienceId
+     *
+     * @param fraudMeansId
+     *
+     * @return FraudMeans
+     */
+    RelationExperienceFraud queryByCondition(Long experienceId, Long fraudMeansId);
 }

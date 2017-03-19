@@ -6,6 +6,8 @@ import com.henrrycheng.chyftt.intermediary.city.bo.City;
 import com.henrrycheng.chyftt.intermediary.city.dao.CityDao;
 import com.henrrycheng.chyftt.intermediary.city.dao.CityMapper;
 import javax.annotation.Resource;
+
+import org.apache.commons.lang.StringUtils;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +25,20 @@ public class CityDaoImpl extends ConfigurableBaseSqlMapDao<City, Long> implement
     @Autowired
     private CityMapper cityMapper;
 
+    /**
+     * 根据条件查询
+     *
+     * @param cityName
+     *
+     * @return City
+     */
+    public  City queryByCondition(String cityName, Long id) {
+        if (StringUtils.isEmpty(cityName)) {
+            return null;
+        }
+        return cityMapper.queryByCondition(cityName, id);
+    }
+
     @Override
     public DaoMapper<City, Long> getDaoMapper() {
         return cityMapper;
@@ -32,11 +48,5 @@ public class CityDaoImpl extends ConfigurableBaseSqlMapDao<City, Long> implement
     @Override
     public void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory) {
         setSqlSessionFactoryInternal(sqlSessionFactory);
-    }
-
-    @Resource(name = "sqlSessionTemplate")
-    @Override
-    public void setSqlSessionTemplate(SqlSessionTemplate sqlSessionTemplate) {
-        setSqlSessionTemplateInternal(sqlSessionTemplate);
     }
 }

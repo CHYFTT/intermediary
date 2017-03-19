@@ -6,10 +6,15 @@ import com.henrrycheng.chyftt.intermediary.company.bo.Company;
 import com.henrrycheng.chyftt.intermediary.company.dao.CompanyDao;
 import com.henrrycheng.chyftt.intermediary.company.dao.CompanyMapper;
 import javax.annotation.Resource;
+
+import com.henrrycheng.chyftt.intermediary.company.dto.CompanyQueryDto;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.Collections;
+import java.util.List;
 
 /**
  * Dao implement class for model : com.henrrycheng.chyftt.intermediary.company.bo.CompanyBase
@@ -23,6 +28,22 @@ public class CompanyDaoImpl extends ConfigurableBaseSqlMapDao<Company, Long> imp
     @Autowired
     private CompanyMapper companyMapper;
 
+    /**
+     * 根据条件查询
+     *
+     * @param company
+     *
+     * @return List<Company>
+     *
+     * @author chengyong
+     */
+    public List<Company> queryByCondition(CompanyQueryDto company) {
+        if (company == null) {
+            return Collections.emptyList();
+        }
+        return companyMapper.queryByCondition(company);
+    }
+
     @Override
     public DaoMapper<Company, Long> getDaoMapper() {
         return companyMapper;
@@ -32,11 +53,5 @@ public class CompanyDaoImpl extends ConfigurableBaseSqlMapDao<Company, Long> imp
     @Override
     public void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory) {
         setSqlSessionFactoryInternal(sqlSessionFactory);
-    }
-
-    @Resource(name = "sqlSessionTemplate")
-    @Override
-    public void setSqlSessionTemplate(SqlSessionTemplate sqlSessionTemplate) {
-        setSqlSessionTemplateInternal(sqlSessionTemplate);
     }
 }
