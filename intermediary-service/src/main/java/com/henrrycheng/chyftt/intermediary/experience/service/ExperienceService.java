@@ -5,7 +5,6 @@ import com.henrrycheng.chyftt.intermediary.common.Result;
 import com.henrrycheng.chyftt.intermediary.exception.UserAppException;
 import com.henrrycheng.chyftt.intermediary.experience.bo.Experience;
 import com.henrrycheng.chyftt.intermediary.experience.dto.formDto.ExperienceFormDto;
-import com.henrrycheng.chyftt.intermediary.experience.dto.viewDto.ExperienceViewDto;
 
 /**
  * Service interface class for model com.henrrycheng.chyftt.intermediary.experience.bo.ExperienceBase

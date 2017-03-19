@@ -15,15 +15,10 @@ import com.henrrycheng.chyftt.intermediary.experience.service.ExperienceService;
 import javax.annotation.Resource;
 
 import com.henrrycheng.chyftt.intermediary.experienceFraudRelation.service.RelationExperienceFraudService;
-import com.henrrycheng.chyftt.intermediary.fraudMeans.bo.FraudMeans;
-import com.henrrycheng.chyftt.intermediary.fraudMeans.service.FraudMeansService;
-import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Service implement class for model : com.henrrycheng.chyftt.intermediary.experience.bo.ExperienceBase

@@ -6,7 +6,6 @@ import com.google.common.base.Function;
 import com.google.common.collect.Lists;
 import com.henrrycheng.chyftt.intermediary.common.utils.SaveAndUpdateUtils;
 import com.henrrycheng.chyftt.intermediary.experience.constant.ExperenceScoreEnum;
-import com.henrrycheng.chyftt.intermediary.experience.service.impl.ExperienceServiceImpl;
 import com.henrrycheng.chyftt.intermediary.experienceFraudRelation.bo.RelationExperienceFraud;
 import com.henrrycheng.chyftt.intermediary.experienceFraudRelation.dao.RelationExperienceFraudDao;
 import com.henrrycheng.chyftt.intermediary.experienceFraudRelation.service.RelationExperienceFraudService;
@@ -17,8 +16,6 @@ import com.henrrycheng.chyftt.intermediary.fraudMeans.service.FraudMeansService;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
 import java.util.List;
 
 /**
