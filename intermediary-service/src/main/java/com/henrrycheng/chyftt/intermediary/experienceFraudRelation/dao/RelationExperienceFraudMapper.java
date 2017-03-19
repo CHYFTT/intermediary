@@ -3,7 +3,6 @@ package com.henrrycheng.chyftt.intermediary.experienceFraudRelation.dao;
 import com.baidu.bjf.dao.DaoMapper;
 import com.baidu.bjf.orm.mybatis.SqlMapper;
 import com.henrrycheng.chyftt.intermediary.experienceFraudRelation.bo.RelationExperienceFraud;
-import com.henrrycheng.chyftt.intermediary.fraudMeans.bo.FraudMeans;
 import org.apache.ibatis.annotations.Param;
 
 /**
