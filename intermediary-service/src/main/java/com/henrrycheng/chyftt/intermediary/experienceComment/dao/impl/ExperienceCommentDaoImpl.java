@@ -33,10 +33,4 @@ public class ExperienceCommentDaoImpl extends ConfigurableBaseSqlMapDao<Experien
     public void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory) {
         setSqlSessionFactoryInternal(sqlSessionFactory);
     }
-
-    @Resource(name = "sqlSessionTemplate")
-    @Override
-    public void setSqlSessionTemplate(SqlSessionTemplate sqlSessionTemplate) {
-        setSqlSessionTemplateInternal(sqlSessionTemplate);
-    }
 }

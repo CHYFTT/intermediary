@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="intermediary-web:war exploded">
-    <output-path>$PROJECT_DIR$/intermediary-web/WebContent</output-path>
+    <output-path>/Volumes/chengyong/local/java/tomcat/intermediary/webapps/dev</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

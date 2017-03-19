@@ -41,15 +41,4 @@ public class BaseController extends BaseServicesInjectController {
         }
         return jsonResult;
     }
-
-    protected JsonResult makeUuapError(String statusInfo) {
-        JsonResult jsonResult = new JsonResult();
-        jsonResult.setStatus(444);
-        if (StringUtils.isBlank(statusInfo)) {
-            jsonResult.setStatusInfo("auth认证错误，请重新登录");
-        } else {
-            jsonResult.setStatusInfo(statusInfo);
-        }
-        return jsonResult;
-    }
 }
