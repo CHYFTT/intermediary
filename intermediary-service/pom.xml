@@ -21,7 +21,6 @@
         <spring-security.version>3.2.9.RELEASE</spring-security.version>
         <tcom-log.version>1.0.1.2</tcom-log.version>
         <lego.version>1.0.0.8</lego.version>
-        <ipangu-utility.version>0.2.12-SNAPSHOT</ipangu-utility.version>
     </properties>
 
     <build>
@@ -269,49 +268,7 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.baidu.rigel</groupId>
-            <artifactId>ipangu-utility</artifactId>
-            <scope>compile</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.baidu.rigel.tmp</groupId>
-                    <artifactId>mybatis</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.baidu.rigel.tmp</groupId>
-                    <artifactId>mybatis-spring</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>javax.servlet.jsp</groupId>
-                    <artifactId>jsp-api</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.baidu</groupId>
-                    <artifactId>bjf</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework</groupId>
-                    <artifactId>spring</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.baidu.rigel</groupId>
-                    <artifactId>ipangu-datacenter-common</artifactId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>junit</artifactId>
-                    <groupId>junit</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>tuan-lbc-client</artifactId>
-                    <groupId>com.baidu.lbc</groupId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.baidu.rigel.tmp</groupId>
-                    <artifactId>javaee</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
@@ -358,10 +315,7 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.baidu.uic</groupId>
-            <artifactId>uic-client</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>

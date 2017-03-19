@@ -1,4 +1,4 @@
-package com.henrrycheng.chyftt.intermediary.experience;
+package com.henrrycheng.chyftt.intermediary.experience.controller;
 
 import com.henrrycheng.chyftt.intermediary.common.Result;
 import com.henrrycheng.chyftt.intermediary.controller.BaseController;
@@ -9,9 +9,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 
 @Controller
-@RequestMapping("/experence")
+@RequestMapping("/experience")
 public class ExperienceController extends BaseController {
 
     /**
@@ -31,5 +35,15 @@ public class ExperienceController extends BaseController {
         } else {
             return makeArgumentError(result.getErrorMessage());
         }
+    }
+
+    /**
+     * 获取题卡状态选项
+     */
+    @RequestMapping(value = "/status", method = RequestMethod.GET)
+    @ResponseBody
+    public JsonResult getTitleCardStatus() {
+        List<Map<String, Object>> result = new ArrayList<Map<String, Object>>();
+        return successJsonResult(result);
     }
 }

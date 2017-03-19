@@ -17,7 +17,6 @@
         <spring-security.version>3.2.9.RELEASE</spring-security.version>
         <tcom-log.version>1.0.1.2</tcom-log.version>
         <lego.version>1.0.0.8</lego.version>
-        <ipangu-utility.version>0.2.12-SNAPSHOT</ipangu-utility.version>
         <package.environment>qa</package.environment>
     </properties>
 
@@ -268,56 +267,6 @@
         </dependency>
 
         <dependency>
-            <groupId>com.baidu.rigel</groupId>
-            <artifactId>ipangu-utility</artifactId>
-            <version>${ipangu-utility.version}</version>
-            <scope>compile</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.baidu.rigel.tmp</groupId>
-                    <artifactId>mybatis</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.baidu.rigel.tmp</groupId>
-                    <artifactId>mybatis-spring</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>javax.servlet.jsp</groupId>
-                    <artifactId>jsp-api</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.baidu</groupId>
-                    <artifactId>bjf</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework</groupId>
-                    <artifactId>spring</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.baidu.rigel</groupId>
-                    <artifactId>ipangu-datacenter-common</artifactId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>junit</artifactId>
-                    <groupId>junit</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>tuan-lbc-client</artifactId>
-                    <groupId>com.baidu.lbc</groupId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.baidu.rigel.tmp</groupId>
-                    <artifactId>javaee</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.baidu</groupId>
-            <artifactId>casclient</artifactId>
-            <version>1.0.3</version>
-            <type>jar</type>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
             <version>${spring-security.version}</version>
@@ -370,21 +319,13 @@
             <artifactId>guava</artifactId>
             <version>18.0-rc2</version>
         </dependency>
-        <dependency>
-            <groupId>com.baidu.uic</groupId>
-            <artifactId>uic-client</artifactId>
-            <version>2.0.4</version>
-        </dependency>
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.5.11</version>
         </dependency>
-        <dependency>
-            <groupId>com.baidu</groupId>
-            <artifactId>bdrp-client</artifactId>
-            <version>1.0.2</version>
-        </dependency>
+
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>

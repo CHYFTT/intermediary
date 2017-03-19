@@ -10,12 +10,12 @@
 
 	<!-- annotation scan -->
     <!--Controller已经在spring-mvc.xml中扫描，此处排除掉-->
-    <!--<context:component-scan base-package="com.baidu.rigel.virtual.fly">-->
-        <!--<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
-        <!--<context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"/>-->
-    <!--</context:component-scan>-->
+    <context:component-scan base-package="com.henrrycheng.chyftt.intermediary">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+        <context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"/>
+    </context:component-scan>
 
-    <context:component-scan base-package="com.baidu.rigel.ipangu.rights.service"/>
+    <context:component-scan base-package="com.henrrycheng.chyftt"/>
 
 
     <import resource="classpath:conf/applicationContext-properties.xml"/>

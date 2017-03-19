@@ -9,14 +9,14 @@
         <property name="configLocation" value="classpath:conf/sqlmap-config.xml"/>
         <property name="mapperLocations">
             <list>
-                <value>classpath*:com/baidu/rigel/virtual/fly/**/conf/*Mapper.xml</value>
+                <value>classpath*:com/henrrycheng/chyftt/intermediary/**/conf/*Mapper.xml</value>
             </list>
         </property>
     </bean>
 
     <!-- scan for mappers and let them be autowired -->
     <bean id="indicatorScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.baidu.rigel.virtual.fly.**.dao"/>
+        <property name="basePackage" value="com.henrrycheng.chyftt.intermediary.**.dao"/>
         <property name="markerInterface" value="org.mybatis.spring.mapper.MapperFactoryBean"></property>
         <property name="annotationClass" value="com.baidu.bjf.orm.mybatis.SqlMapper"></property>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>

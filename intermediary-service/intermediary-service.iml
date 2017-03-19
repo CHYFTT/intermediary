@@ -79,7 +79,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.glassfish.hk2.external:aopalliance-repackaged:2.3.0-b05" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.glassfish.hk2.external:javax.inject:2.3.0-b05" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.glassfish.hk2:hk2-locator:2.3.0-b05" level="project" />
-    <orderEntry type="library" name="Maven: org.javassist:javassist:3.18.1-GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.javassist:javassist:3.18.1-GA" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty:jetty-server:7.6.9.v20130131" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty.orbit:javax.servlet:2.5.0.v201103041518" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty:jetty-continuation:7.6.9.v20130131" level="project" />
@@ -125,58 +125,6 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.1.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.1.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junitperf:junitperf:1.8" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu.rigel:ipangu-utility:0.2.12-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu.rigel:crm-rights:1.1.5.7" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.struts.xwork:xwork-core:2.2.1" level="project" />
-    <orderEntry type="library" name="Maven: ognl:ognl:3.0" level="project" />
-    <orderEntry type="library" name="Maven: javassist:javassist:3.8.0.GA" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.struts:struts2-spring-plugin:2.2.1" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu:bjf-tcom-compatible:1.0.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu.rigel.tmp:thrift:0.7.0" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu:fishingnet-bjf:1.0.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu:fishingnet-core:1.0.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu:ESB-bjf-extension:1.0.0.1" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu:ESB-core:1.0.0.1" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu.rigel:tcom-tinyse:1.0.0.4" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu:bjf-tcom-adapter:1.0.0.3" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu.rigel:tcom-uc:1.0.0.4" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu:json-rpc:1.1.1" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu:casclient:1.0.3" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu.rigel:tcom-fileexport:1.0.0.4" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu.rigel.tmp:struts2-core:2.2.1.1" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu.rigel:tcom-querybuilder:1.0.0.4" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate:hibernate:3.2.7.ga" level="project" />
-    <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache:1.2.3" level="project" />
-    <orderEntry type="library" name="Maven: javax.transaction:jta:1.0.1B" level="project" />
-    <orderEntry type="library" name="Maven: asm:asm-attrs:1.5.3" level="project" />
-    <orderEntry type="library" name="Maven: antlr:antlr:2.7.6" level="project" />
-    <orderEntry type="library" name="Maven: asm:asm:1.5.3" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu.rigel:tcom-platform:1.0.0.4" level="project" />
-    <orderEntry type="library" name="Maven: commons-configuration:commons-configuration:1.6" level="project" />
-    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils-core:1.8.0" level="project" />
-    <orderEntry type="library" name="Maven: org.jasypt:jasypt:1.6" level="project" />
-    <orderEntry type="library" name="Maven: com.google:jsonplugin:0.30" level="project" />
-    <orderEntry type="library" name="Maven: javax.annotation:jsr250-api:1.0" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-jcl:1.5.11" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu.rigel:security-client:1.0.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate:hibernate-annotations:3.4.0.GA" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate:ejb3-persistence:1.0.2.GA" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate:hibernate-commons-annotations:3.1.0.GA" level="project" />
-    <orderEntry type="library" name="Maven: velocity-tools:velocity-tools:1.4" level="project" />
-    <orderEntry type="library" name="Maven: net.sourceforge:jsqlparser:0.7.0" level="project" />
-    <orderEntry type="library" name="Maven: jaxen:jaxen:1.1.4" level="project" />
-    <orderEntry type="library" name="Maven: com.nuomi.crm:niux_salers_client:1.1.10.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.nuomi:niux-acl-client:1.0.14-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.nuomi:soa-base:1.0-trunk-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba:dubbo:2.4.9" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: com.github.sgroschupf:zkclient:0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:3.3.3" level="project" />
-    <orderEntry type="library" name="Maven: jline:jline:0.9.94" level="project" />
-    <orderEntry type="library" name="Maven: com.nuomi:env:1.0-prod-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.3.2" level="project" />
-    <orderEntry type="library" name="Maven: yunying:yunying-client:1.0.40-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: yunying:yunying-util:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:3.2.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:3.2.9.RELEASE" level="project" />
@@ -188,7 +136,6 @@
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.3.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:18.0-rc2" level="project" />
-    <orderEntry type="library" name="Maven: com.baidu.uic:uic-client:unknown" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.5.11" level="project" />
     <orderEntry type="library" name="Maven: redis.clients:jedis:2.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.0" level="project" />

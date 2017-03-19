@@ -26,12 +26,6 @@
 		factory-bean="httpClientBuilder" factory-method="build" scope="prototype">
 	</bean>
 
-	<!-- 定义清理无效连接  -->
-	<bean
-		class="com.baidu.rigel.virtual.fly.common.httpservice.IdleConnectionEvictor"
-		destroy-method="shutdown">
-		<constructor-arg index="0" ref="httpClientConnectionManager" />
-	</bean>
 
 	<bean id="requestConfigBuilder" class="org.apache.http.client.config.RequestConfig.Builder">
 		<!-- 创建连接的最长时间  -->
